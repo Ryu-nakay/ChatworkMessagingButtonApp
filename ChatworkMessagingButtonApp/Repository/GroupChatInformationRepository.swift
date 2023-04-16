@@ -15,7 +15,7 @@ struct GroupChatInformationRepository {
     }
 
     // ルーム一覧を取得
-    func getRoomList() async throws -> Data? {
+    func getRoomList() async throws -> [ChatInformation] {
         let headers = [
             "accept": "application/json",
             "x-chatworktoken": chatworkAPIToken
@@ -26,6 +26,7 @@ struct GroupChatInformationRepository {
         request.allHTTPHeaderFields = headers
 
         let (data, _) = try await URLSession.shared.data(for: request as URLRequest)
-        return data
+        let response = try JSONDecoder().decode([ChatInformation].self, from: data)
+        return response
     }
 }

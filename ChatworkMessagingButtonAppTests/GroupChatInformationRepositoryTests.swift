@@ -16,9 +16,9 @@ final class GroupChatInformationRepositoryTests: XCTestCase {
         do {
             print("===================data is=================")
             let data = try await repository.getRoomList()
-            print(data!)
+            print(data)
         } catch {
-            print("catch error")
+            print(error)
         }
         
     }

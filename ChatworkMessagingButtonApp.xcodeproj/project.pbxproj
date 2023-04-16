@@ -19,6 +19,8 @@
 		EFA4A7ED29EBE3E70054B812 /* GroupChatInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */; };
 		EFA4A7EF29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */; };
 		EFA4A7F029EBE5790054B812 /* GroupChatInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */; };
+		EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
+		EFA4A7F429EBEEB00054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,7 @@
 		EFA4A7EA29EBE34C0054B812 /* MessageSendRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSendRepository.swift; sourceTree = "<group>"; };
 		EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepository.swift; sourceTree = "<group>"; };
 		EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepositoryTests.swift; sourceTree = "<group>"; };
+		EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInformation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,7 @@
 				EFA4A7E529EBE0770054B812 /* View */,
 				EFA4A7E629EBE07F0054B812 /* ViewModel */,
 				EFA4A7E729EBE0880054B812 /* Repository */,
+				EFA4A7F129EBEBBD0054B812 /* Model */,
 				EFA4A7BF29EBE0320054B812 /* Assets.xcassets */,
 				EFA4A7C129EBE0320054B812 /* Preview Content */,
 			);
@@ -162,6 +166,14 @@
 				EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		EFA4A7F129EBEBBD0054B812 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +310,7 @@
 				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
 				EFA4A7EB29EBE34C0054B812 /* MessageSendRepository.swift in Sources */,
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
+				EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */,
 				EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +321,7 @@
 			files = (
 				EFA4A7F029EBE5790054B812 /* GroupChatInformationRepository.swift in Sources */,
 				EFA4A7EF29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift in Sources */,
+				EFA4A7F429EBEEB00054B812 /* ChatInformation.swift in Sources */,
 				EFA4A7CD29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
