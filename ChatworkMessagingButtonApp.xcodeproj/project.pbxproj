@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7BB29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift */; };
+		EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7BD29EBE0310054B812 /* ContentView.swift */; };
+		EFA4A7C029EBE0320054B812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA4A7BF29EBE0320054B812 /* Assets.xcassets */; };
+		EFA4A7C329EBE0320054B812 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA4A7C229EBE0320054B812 /* Preview Assets.xcassets */; };
+		EFA4A7CD29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7CC29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift */; };
+		EFA4A7D729EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */; };
+		EFA4A7D929EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA4A7C929EBE0320054B812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA4A7B029EBE0310054B812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA4A7B729EBE0310054B812;
+			remoteInfo = ChatworkMessagingButtonApp;
+		};
+		EFA4A7D329EBE0320054B812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA4A7B029EBE0310054B812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA4A7B729EBE0310054B812;
+			remoteInfo = ChatworkMessagingButtonApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFA4A7B829EBE0310054B812 /* ChatworkMessagingButtonApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatworkMessagingButtonApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA4A7BB29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppApp.swift; sourceTree = "<group>"; };
+		EFA4A7BD29EBE0310054B812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFA4A7BF29EBE0320054B812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA4A7C229EBE0320054B812 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFA4A7C829EBE0320054B812 /* ChatworkMessagingButtonAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatworkMessagingButtonAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA4A7CC29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppTests.swift; sourceTree = "<group>"; };
+		EFA4A7D229EBE0320054B812 /* ChatworkMessagingButtonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatworkMessagingButtonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITests.swift; sourceTree = "<group>"; };
+		EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA4A7B529EBE0310054B812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7C529EBE0320054B812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7CF29EBE0320054B812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA4A7AF29EBE0310054B812 = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7BA29EBE0310054B812 /* ChatworkMessagingButtonApp */,
+				EFA4A7CB29EBE0320054B812 /* ChatworkMessagingButtonAppTests */,
+				EFA4A7D529EBE0320054B812 /* ChatworkMessagingButtonAppUITests */,
+				EFA4A7B929EBE0310054B812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA4A7B929EBE0310054B812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7B829EBE0310054B812 /* ChatworkMessagingButtonApp.app */,
+				EFA4A7C829EBE0320054B812 /* ChatworkMessagingButtonAppTests.xctest */,
+				EFA4A7D229EBE0320054B812 /* ChatworkMessagingButtonAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFA4A7BA29EBE0310054B812 /* ChatworkMessagingButtonApp */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7BB29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift */,
+				EFA4A7BD29EBE0310054B812 /* ContentView.swift */,
+				EFA4A7BF29EBE0320054B812 /* Assets.xcassets */,
+				EFA4A7C129EBE0320054B812 /* Preview Content */,
+			);
+			path = ChatworkMessagingButtonApp;
+			sourceTree = "<group>";
+		};
+		EFA4A7C129EBE0320054B812 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7C229EBE0320054B812 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFA4A7CB29EBE0320054B812 /* ChatworkMessagingButtonAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7CC29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift */,
+			);
+			path = ChatworkMessagingButtonAppTests;
+			sourceTree = "<group>";
+		};
+		EFA4A7D529EBE0320054B812 /* ChatworkMessagingButtonAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */,
+				EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */,
+			);
+			path = ChatworkMessagingButtonAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA4A7B729EBE0310054B812 /* ChatworkMessagingButtonApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA4A7DC29EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonApp" */;
+			buildPhases = (
+				EFA4A7B429EBE0310054B812 /* Sources */,
+				EFA4A7B529EBE0310054B812 /* Frameworks */,
+				EFA4A7B629EBE0310054B812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatworkMessagingButtonApp;
+			productName = ChatworkMessagingButtonApp;
+			productReference = EFA4A7B829EBE0310054B812 /* ChatworkMessagingButtonApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA4A7C729EBE0320054B812 /* ChatworkMessagingButtonAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA4A7DF29EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonAppTests" */;
+			buildPhases = (
+				EFA4A7C429EBE0320054B812 /* Sources */,
+				EFA4A7C529EBE0320054B812 /* Frameworks */,
+				EFA4A7C629EBE0320054B812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA4A7CA29EBE0320054B812 /* PBXTargetDependency */,
+			);
+			name = ChatworkMessagingButtonAppTests;
+			productName = ChatworkMessagingButtonAppTests;
+			productReference = EFA4A7C829EBE0320054B812 /* ChatworkMessagingButtonAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFA4A7D129EBE0320054B812 /* ChatworkMessagingButtonAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA4A7E229EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonAppUITests" */;
+			buildPhases = (
+				EFA4A7CE29EBE0320054B812 /* Sources */,
+				EFA4A7CF29EBE0320054B812 /* Frameworks */,
+				EFA4A7D029EBE0320054B812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA4A7D429EBE0320054B812 /* PBXTargetDependency */,
+			);
+			name = ChatworkMessagingButtonAppUITests;
+			productName = ChatworkMessagingButtonAppUITests;
+			productReference = EFA4A7D229EBE0320054B812 /* ChatworkMessagingButtonAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA4A7B029EBE0310054B812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFA4A7B729EBE0310054B812 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					EFA4A7C729EBE0320054B812 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFA4A7B729EBE0310054B812;
+					};
+					EFA4A7D129EBE0320054B812 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFA4A7B729EBE0310054B812;
+					};
+				};
+			};
+			buildConfigurationList = EFA4A7B329EBE0310054B812 /* Build configuration list for PBXProject "ChatworkMessagingButtonApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA4A7AF29EBE0310054B812;
+			productRefGroup = EFA4A7B929EBE0310054B812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFA4A7B729EBE0310054B812 /* ChatworkMessagingButtonApp */,
+				EFA4A7C729EBE0320054B812 /* ChatworkMessagingButtonAppTests */,
+				EFA4A7D129EBE0320054B812 /* ChatworkMessagingButtonAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA4A7B629EBE0310054B812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA4A7C329EBE0320054B812 /* Preview Assets.xcassets in Resources */,
+				EFA4A7C029EBE0320054B812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7C629EBE0320054B812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7D029EBE0320054B812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA4A7B429EBE0310054B812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
+				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7C429EBE0320054B812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA4A7CD29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA4A7CE29EBE0320054B812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA4A7D929EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift in Sources */,
+				EFA4A7D729EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA4A7CA29EBE0320054B812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA4A7B729EBE0310054B812 /* ChatworkMessagingButtonApp */;
+			targetProxy = EFA4A7C929EBE0320054B812 /* PBXContainerItemProxy */;
+		};
+		EFA4A7D429EBE0320054B812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA4A7B729EBE0310054B812 /* ChatworkMessagingButtonApp */;
+			targetProxy = EFA4A7D329EBE0320054B812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFA4A7DA29EBE0320054B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFA4A7DB29EBE0320054B812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA4A7DD29EBE0320054B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatworkMessagingButtonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA4A7DE29EBE0320054B812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ChatworkMessagingButtonApp/Preview Content\"";
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFA4A7E029EBE0320054B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatworkMessagingButtonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatworkMessagingButtonApp";
+			};
+			name = Debug;
+		};
+		EFA4A7E129EBE0320054B812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChatworkMessagingButtonApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChatworkMessagingButtonApp";
+			};
+			name = Release;
+		};
+		EFA4A7E329EBE0320054B812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatworkMessagingButtonApp;
+			};
+			name = Debug;
+		};
+		EFA4A7E429EBE0320054B812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R3T4APN95R;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryu.ChatworkMessagingButtonAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ChatworkMessagingButtonApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA4A7B329EBE0310054B812 /* Build configuration list for PBXProject "ChatworkMessagingButtonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA4A7DA29EBE0320054B812 /* Debug */,
+				EFA4A7DB29EBE0320054B812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA4A7DC29EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA4A7DD29EBE0320054B812 /* Debug */,
+				EFA4A7DE29EBE0320054B812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA4A7DF29EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA4A7E029EBE0320054B812 /* Debug */,
+				EFA4A7E129EBE0320054B812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA4A7E229EBE0320054B812 /* Build configuration list for PBXNativeTarget "ChatworkMessagingButtonAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA4A7E329EBE0320054B812 /* Debug */,
+				EFA4A7E429EBE0320054B812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA4A7B029EBE0310054B812 /* Project object */;
+}
