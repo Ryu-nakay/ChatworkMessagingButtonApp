@@ -96,6 +96,9 @@
 			children = (
 				EFA4A7BB29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift */,
 				EFA4A7BD29EBE0310054B812 /* ContentView.swift */,
+				EFA4A7E529EBE0770054B812 /* View */,
+				EFA4A7E629EBE07F0054B812 /* ViewModel */,
+				EFA4A7E729EBE0880054B812 /* Repository */,
 				EFA4A7BF29EBE0320054B812 /* Assets.xcassets */,
 				EFA4A7C129EBE0320054B812 /* Preview Content */,
 			);
@@ -125,6 +128,27 @@
 				EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */,
 			);
 			path = ChatworkMessagingButtonAppUITests;
+			sourceTree = "<group>";
+		};
+		EFA4A7E529EBE0770054B812 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EFA4A7E629EBE07F0054B812 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EFA4A7E729EBE0880054B812 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
