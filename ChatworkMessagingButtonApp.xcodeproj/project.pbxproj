@@ -14,6 +14,7 @@
 		EFA4A7CD29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7CC29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift */; };
 		EFA4A7D729EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */; };
 		EFA4A7D929EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */; };
+		EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		EFA4A7D229EBE0320054B812 /* ChatworkMessagingButtonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChatworkMessagingButtonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITests.swift; sourceTree = "<group>"; };
 		EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		EFA4A7E529EBE0770054B812 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
+				EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
