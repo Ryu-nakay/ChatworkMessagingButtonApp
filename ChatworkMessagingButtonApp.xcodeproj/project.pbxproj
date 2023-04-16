@@ -21,6 +21,7 @@
 		EFA4A7F029EBE5790054B812 /* GroupChatInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */; };
 		EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
 		EFA4A7F429EBEEB00054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
+		EFA4A7F629EC1B5A0054B812 /* InputTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepository.swift; sourceTree = "<group>"; };
 		EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepositoryTests.swift; sourceTree = "<group>"; };
 		EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInformation.swift; sourceTree = "<group>"; };
+		EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTokenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */,
+				EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
 				EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */,
 				EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */,
+				EFA4A7F629EC1B5A0054B812 /* InputTokenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
