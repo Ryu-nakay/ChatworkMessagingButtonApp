@@ -15,6 +15,10 @@
 		EFA4A7D729EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */; };
 		EFA4A7D929EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */; };
 		EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */; };
+		EFA4A7EB29EBE34C0054B812 /* MessageSendRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EA29EBE34C0054B812 /* MessageSendRepository.swift */; };
+		EFA4A7ED29EBE3E70054B812 /* GroupChatInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */; };
+		EFA4A7EF29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */; };
+		EFA4A7F029EBE5790054B812 /* GroupChatInformationRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,9 @@
 		EFA4A7D629EBE0320054B812 /* ChatworkMessagingButtonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITests.swift; sourceTree = "<group>"; };
 		EFA4A7D829EBE0320054B812 /* ChatworkMessagingButtonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkMessagingButtonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButton.swift; sourceTree = "<group>"; };
+		EFA4A7EA29EBE34C0054B812 /* MessageSendRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageSendRepository.swift; sourceTree = "<group>"; };
+		EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepository.swift; sourceTree = "<group>"; };
+		EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepositoryTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				EFA4A7CC29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift */,
+				EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */,
 			);
 			path = ChatworkMessagingButtonAppTests;
 			sourceTree = "<group>";
@@ -150,6 +158,8 @@
 		EFA4A7E729EBE0880054B812 /* Repository */ = {
 			isa = PBXGroup;
 			children = (
+				EFA4A7EA29EBE34C0054B812 /* MessageSendRepository.swift */,
+				EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -284,7 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA4A7ED29EBE3E70054B812 /* GroupChatInformationRepository.swift in Sources */,
 				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
+				EFA4A7EB29EBE34C0054B812 /* MessageSendRepository.swift in Sources */,
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
 				EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */,
 			);
@@ -294,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFA4A7F029EBE5790054B812 /* GroupChatInformationRepository.swift in Sources */,
+				EFA4A7EF29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift in Sources */,
 				EFA4A7CD29EBE0320054B812 /* ChatworkMessagingButtonAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
