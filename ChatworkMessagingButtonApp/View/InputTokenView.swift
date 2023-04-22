@@ -13,6 +13,8 @@ struct InputTokenView: View {
 
     @State var inputToken = ""
 
+    @ObservedObject var messagingButtonListViewModel: MessagingButtonListViewModel
+
     var body: some View {
         ZStack {
             Color.black
@@ -29,7 +31,7 @@ struct InputTokenView: View {
                     .textFieldStyle(.roundedBorder)
 
                 Button {
-                    print("pressed")
+                    messagingButtonListViewModel.onTapInputTokenOK(inputToken: inputToken)
                 } label: {
                     Text("OK")
                 }
@@ -47,6 +49,6 @@ struct InputTokenView: View {
 
 struct InputTokenView_Previews: PreviewProvider {
     static var previews: some View {
-        InputTokenView()
+        InputTokenView( messagingButtonListViewModel: MessagingButtonListViewModel())
     }
 }

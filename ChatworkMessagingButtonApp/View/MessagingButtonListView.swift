@@ -16,7 +16,7 @@ struct MessagingButtonListView: View {
                 MessagingButton()
             }
 
-            InputTokenView()
+            InputTokenView(messagingButtonListViewModel: viewModel)
                 .opacity(viewModel.inputTokenOpacity)
         }
     }

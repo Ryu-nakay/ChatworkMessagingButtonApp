@@ -18,4 +18,8 @@ class MessagingButtonListViewModel: ObservableObject {
             inputTokenOpacity = 1
         }
     }
+
+    func onTapInputTokenOK(inputToken: String) {
+        chatworkAPITokenLocalRepository.save(token: inputToken)
+    }
 }
