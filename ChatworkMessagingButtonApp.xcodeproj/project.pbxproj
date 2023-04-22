@@ -22,6 +22,8 @@
 		EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
 		EFA4A7F429EBEEB00054B812 /* ChatInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */; };
 		EFA4A7F629EC1B5A0054B812 /* InputTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */; };
+		EFE89A5729F38F1E00096BAF /* MessagingButtonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE89A5629F38F1E00096BAF /* MessagingButtonListView.swift */; };
+		EFE89A5A29F38F7800096BAF /* MessagingButtonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE89A5929F38F7800096BAF /* MessagingButtonListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		EFA4A7EE29EBE5450054B812 /* GroupChatInformationRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupChatInformationRepositoryTests.swift; sourceTree = "<group>"; };
 		EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatInformation.swift; sourceTree = "<group>"; };
 		EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTokenView.swift; sourceTree = "<group>"; };
+		EFE89A5629F38F1E00096BAF /* MessagingButtonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButtonListView.swift; sourceTree = "<group>"; };
+		EFE89A5929F38F7800096BAF /* MessagingButtonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButtonListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +153,8 @@
 		EFA4A7E529EBE0770054B812 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */,
+				EFE89A5629F38F1E00096BAF /* MessagingButtonListView.swift */,
+				EFE89A5829F38F2500096BAF /* Components */,
 				EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */,
 			);
 			path = View;
@@ -158,6 +163,7 @@
 		EFA4A7E629EBE07F0054B812 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				EFE89A5929F38F7800096BAF /* MessagingButtonListViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -177,6 +183,14 @@
 				EFA4A7F229EBEBD90054B812 /* ChatInformation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		EFE89A5829F38F2500096BAF /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				EFA4A7E829EBE0C90054B812 /* MessagingButton.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,7 +324,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFA4A7ED29EBE3E70054B812 /* GroupChatInformationRepository.swift in Sources */,
+				EFE89A5729F38F1E00096BAF /* MessagingButtonListView.swift in Sources */,
 				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
+				EFE89A5A29F38F7800096BAF /* MessagingButtonListViewModel.swift in Sources */,
 				EFA4A7EB29EBE34C0054B812 /* MessageSendRepository.swift in Sources */,
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
 				EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */,
