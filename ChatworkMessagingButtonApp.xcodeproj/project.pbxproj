@@ -24,6 +24,7 @@
 		EFA4A7F629EC1B5A0054B812 /* InputTokenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */; };
 		EFE89A5729F38F1E00096BAF /* MessagingButtonListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE89A5629F38F1E00096BAF /* MessagingButtonListView.swift */; };
 		EFE89A5A29F38F7800096BAF /* MessagingButtonListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE89A5929F38F7800096BAF /* MessagingButtonListViewModel.swift */; };
+		EFE89A5C29F3901F00096BAF /* ChatworkAPITokenLocalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE89A5B29F3901F00096BAF /* ChatworkAPITokenLocalRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		EFA4A7F529EC1B5A0054B812 /* InputTokenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTokenView.swift; sourceTree = "<group>"; };
 		EFE89A5629F38F1E00096BAF /* MessagingButtonListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButtonListView.swift; sourceTree = "<group>"; };
 		EFE89A5929F38F7800096BAF /* MessagingButtonListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagingButtonListViewModel.swift; sourceTree = "<group>"; };
+		EFE89A5B29F3901F00096BAF /* ChatworkAPITokenLocalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatworkAPITokenLocalRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			children = (
 				EFA4A7EA29EBE34C0054B812 /* MessageSendRepository.swift */,
 				EFA4A7EC29EBE3E70054B812 /* GroupChatInformationRepository.swift */,
+				EFE89A5B29F3901F00096BAF /* ChatworkAPITokenLocalRepository.swift */,
 			);
 			path = Repository;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 				EFA4A7BE29EBE0310054B812 /* ContentView.swift in Sources */,
 				EFE89A5A29F38F7800096BAF /* MessagingButtonListViewModel.swift in Sources */,
 				EFA4A7EB29EBE34C0054B812 /* MessageSendRepository.swift in Sources */,
+				EFE89A5C29F3901F00096BAF /* ChatworkAPITokenLocalRepository.swift in Sources */,
 				EFA4A7BC29EBE0310054B812 /* ChatworkMessagingButtonAppApp.swift in Sources */,
 				EFA4A7F329EBEBD90054B812 /* ChatInformation.swift in Sources */,
 				EFA4A7E929EBE0C90054B812 /* MessagingButton.swift in Sources */,
