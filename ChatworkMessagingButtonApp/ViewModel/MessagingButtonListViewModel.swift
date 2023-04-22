@@ -19,7 +19,11 @@ class MessagingButtonListViewModel: ObservableObject {
         }
     }
 
-    func onTapInputTokenOK(inputToken: String) {
+    func onTapInputTokenOKButton(inputToken: String) {
+        // トークンが正当かを判定する
+        
+
+        // 正当なら保存
         chatworkAPITokenLocalRepository.save(token: inputToken)
     }
 }
