@@ -9,4 +9,13 @@ import Foundation
 
 class MessagingButtonListViewModel: ObservableObject {
     @Published var inputTokenOpacity: Double = 0
+    private let chatworkAPITokenLocalRepository = ChatworkAPITokenLocalRepository()
+    let chatworkAPIToken: String?
+
+    init() {
+        chatworkAPIToken = chatworkAPITokenLocalRepository.load()
+        if chatworkAPIToken == nil {
+            inputTokenOpacity = 1
+        }
+    }
 }

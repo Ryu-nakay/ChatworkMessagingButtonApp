@@ -8,7 +8,7 @@
 import Foundation
 
 struct ChatworkAPITokenLocalRepository {
-    let ChatworkAPITokenUserDefaultKey = "ChatworkAPIToken"
+    private let ChatworkAPITokenUserDefaultKey = "ChatworkAPIToken"
 
     func save(token: String) {
         UserDefaults.standard.set(token, forKey: ChatworkAPITokenUserDefaultKey)
