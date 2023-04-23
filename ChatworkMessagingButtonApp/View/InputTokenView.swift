@@ -31,7 +31,7 @@ struct InputTokenView: View {
                     .textFieldStyle(.roundedBorder)
 
                 Button {
-                    messagingButtonListViewModel.onTapInputTokenOK(inputToken: inputToken)
+                    messagingButtonListViewModel.onTapInputTokenOKButton(inputToken: inputToken)
                 } label: {
                     Text("OK")
                 }

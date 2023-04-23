@@ -8,14 +8,9 @@
 import Foundation
 
 struct GroupChatInformationRepository {
-    private let chatworkAPIToken: String
-
-    init(chatworkAPIToken: String) {
-        self.chatworkAPIToken = chatworkAPIToken
-    }
 
     // ルーム一覧を取得
-    func getRoomList() async throws -> [ChatInformation] {
+    func getRoomList(chatworkAPIToken: String) async throws -> [ChatInformation] {
         let headers = [
             "accept": "application/json",
             "x-chatworktoken": chatworkAPIToken
